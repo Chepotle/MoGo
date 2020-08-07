@@ -1286,6 +1286,12 @@ main {
   color: #f38181;
 }
 
+@media (max-width: 1199) {
+  .mogo {
+    margin-top: 25px;
+  }
+}
+
 @media (max-width: 991px) {
   .service_message {
     margin-top: 150px;

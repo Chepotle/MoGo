@@ -1020,6 +1020,14 @@ main {
 
 //  Media
 
+// 1199
+
+@media(max-width: 1199) {
+    .mogo {
+        margin-top: 25px;
+    }
+}
+
 // 991
 
 @media(max-width: 991px) {
@@ -1120,8 +1128,6 @@ main {
         margin-bottom: 40px;
     }
 
-    
-
     .team_section {
         margin-bottom: 20px;
     }
@@ -1165,8 +1171,6 @@ main {
         margin-bottom: 40px;
     }
 
-    
-
     .stat_text {
         text-align: center;
     }
@@ -1180,15 +1184,6 @@ main {
         min-height: 200px;
     }
 
-
-
-
-
-
-
-
-
-    
     .work_item {
         margin-bottom: 20px;
     }
