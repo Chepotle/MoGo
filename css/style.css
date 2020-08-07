@@ -1286,9 +1286,10 @@ main {
   color: #f38181;
 }
 
-@media (max-width: 1199) {
+@media (max-width: 1199px) {
   .mogo {
     margin-top: 25px;
+    margin-bottom: 25px;
   }
 }
 
