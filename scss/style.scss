@@ -153,6 +153,7 @@ main {
         top: -3px;
         background-color: #f38181;
         height: 3px;
+        transition-duration: .5s;
     }
     &:hover {
         &::before {
@@ -1017,6 +1018,10 @@ main {
     }
 }
 
+// Burger
+
+
+
 
 //  Media
 
@@ -1072,7 +1077,12 @@ main {
     }
 
     .intro_menu {
-        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .intro_link {
+        margin-bottom: 10px;
     }
 
     .mogo_blogs {

@@ -287,6 +287,8 @@ main {
   top: -3px;
   background-color: #f38181;
   height: 3px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .intro_slider_item:hover::before {
@@ -1328,7 +1330,16 @@ main {
     margin-top: 20px;
   }
   .intro_menu {
-    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .intro_link {
+    margin-bottom: 10px;
   }
   .mogo_blogs {
     margin-top: 20px;
