@@ -1334,6 +1334,12 @@ main {
           transition-duration: .5s;
 }
 
+.burger_margin {
+  margin-top: 170px;
+  -webkit-text-decoration: .5s;
+          text-decoration: .5s;
+}
+
 @media (max-width: 1199px) {
   .mogo {
     margin-top: 25px;
@@ -1342,6 +1348,10 @@ main {
 }
 
 @media (max-width: 991px) {
+  .intro_title {
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+  }
   .burger_menu {
     display: block;
   }
@@ -1491,6 +1501,9 @@ main {
 }
 
 @media (max-width: 575px) {
+  .intro_subtitle::after {
+    margin: 20px auto;
+  }
   .stat-item {
     min-height: 150px;
   }
