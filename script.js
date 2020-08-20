@@ -1,8 +1,8 @@
-let burger = document.querySelector('.burger_menu');
-let menu = document.querySelector('.intro_menu');
-let title = document.querySelector('.intro_title')
+let burger = document.querySelector('.burger');
+let wraper = document.querySelector('.burger_menu_wraper');
+let menu = document.querySelector('.burger_menu');
 
 burger.addEventListener('click', function () {
-    menu.classList.toggle('burger_position');
-    title.classList.toggle('burger_margin');
+    wraper.classList.toggle('burger_position');
+    menu.classList.toggle('burger_menu_display');
 })
