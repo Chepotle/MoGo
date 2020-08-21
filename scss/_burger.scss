@@ -1,0 +1,71 @@
+// Burger
+
+.burger_menu_wraper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 100vh;
+    background-color: #95e1d3;
+    transition-duration: 0.5s;
+    z-index: 1;
+}
+
+.burger_menu {
+    position: absolute;
+    display: none;
+    z-index: 2;
+    flex-direction: column;
+    left: 30%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    li {
+        margin-bottom: 55px;
+    }
+}
+
+.burger {
+    display: none;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    span {
+        width: 100%;
+        position: absolute;
+        height: 2px;
+        left: 0;
+        top: 13px;
+        background-color: #fff;
+    }
+    &::before {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        content: "";
+        height: 2px;
+    }
+    &::after {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #fff;
+        content: "";
+        height: 2px;
+    }
+}
+
+.burger_position {
+    width: 35%;
+    transition-duration: .5s;
+}
+
+.burger_menu_display {
+    display: flex;
+}
