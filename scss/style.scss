@@ -13,12 +13,15 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
 }
 
-.intro_section {
-    padding-top: 30px;
+.intro_block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
+
 
 .intro_logo {
     color: #ffffff;
@@ -73,10 +76,8 @@ main {
     max-width: 880px;
     width: 100%;
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    
 }
 
 .intro_title {
@@ -94,7 +95,7 @@ main {
     &::after {
         content: "";
         display: block;
-        width: 7%;
+        width: 60px;
         height: 3px;
         margin: 60px auto;
         background-color: #fff;
@@ -121,7 +122,7 @@ main {
 }
 
 .intro_slider {
-    padding-top: 85vh;
+    
     display: flex;
     justify-content: space-between;
     a {
@@ -1183,9 +1184,6 @@ main {
 // 767
 
 @media(max-width: 767px) {
-    .intro_slider {
-        padding-top: 80vh;
-    }
 
     .intro_slider_item {
         width: 17%;
@@ -1305,10 +1303,6 @@ main {
 
 
 @media(max-width: 575px) {
-
-    .intro_slider {
-        padding-top: 70vh;
-    }
 
     .burger_menu li {
         margin-bottom: 35px;
