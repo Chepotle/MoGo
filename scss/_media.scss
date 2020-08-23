@@ -84,9 +84,6 @@
 
 @media(max-width: 767px) {
 
-    .intro_block {
-        min-height: auto;
-    }
 
     .intro_slider_item {
         width: 17%;
@@ -212,6 +209,10 @@
 
 
 @media(max-width: 575px) {
+
+    .intro_block {
+        min-height: auto;
+    }
 
     .burger_menu li {
         margin-bottom: 35px;
