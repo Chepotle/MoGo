@@ -207,6 +207,7 @@ main {
 
 .intro_block {
   height: 100vh;
+  min-height: 668px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
