@@ -313,7 +313,7 @@ main {
 }
 
 .amazing_item {
-
+    display: flex;
 }
 
 .amazing_title {
@@ -330,6 +330,10 @@ main {
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.amazing_img {
+    margin-right: 40px;
 }
 
 // Design

@@ -115,6 +115,12 @@
         margin-bottom: 25px;
     }
 
+    .row .amazing_item {
+        &:last-child {
+            margin: 0;
+        }
+    }
+
     .amazing_line {
         margin: 25px 0;
     }
