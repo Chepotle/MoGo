@@ -207,7 +207,7 @@ main {
 
 .intro_block {
   height: 100vh;
-  min-height: 668px;
+  min-height: 768px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1439,6 +1439,9 @@ main {
 }
 
 @media (max-width: 767px) {
+  .intro_block {
+    min-height: auto;
+  }
   .intro_slider_item {
     width: 17%;
     text-align: center;
