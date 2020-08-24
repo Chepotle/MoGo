@@ -194,6 +194,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   overflow: hidden;
 }
@@ -1374,6 +1378,34 @@ main {
 
 .footer_text span {
   color: #f38181;
+}
+
+.scroll_button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(#f38181));
+  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, #f38181 100%);
+  position: fixed;
+  z-index: 1;
+  right: 30px;
+  top: 80%;
+  display: none;
+  cursor: pointer;
+}
+
+.arrow_scroll {
+  position: absolute;
+  border-color: #95e1d3;
+  left: 32%;
+  top: 36%;
+  border-width: 5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.arrow_show {
+  display: block;
 }
 
 @media (max-width: 1199px) {

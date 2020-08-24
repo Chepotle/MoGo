@@ -2,6 +2,9 @@
 @import "_fonts";
 @import "_burger";
 
+html {
+    scroll-behavior: smooth;
+}
 
 main {
     overflow: hidden;
@@ -1023,6 +1026,35 @@ main {
         color: #f38181;
     }
 }
+
+// Arrow_scroll
+
+.scroll_button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, #f38181 100%);
+    position: fixed;
+    z-index: 1;
+    right: 30px;
+    top: 80%;
+    display: none;
+    cursor: pointer;
+}
+
+.arrow_scroll {
+    position: absolute;
+    border-color: #95e1d3;
+    left: 32%;
+    top: 36%;
+    border-width: 5px;
+    transform: rotate(45deg);
+}
+
+.arrow_show {
+    display: block;
+}
+
 
 
 
