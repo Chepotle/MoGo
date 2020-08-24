@@ -1556,6 +1556,9 @@ main {
 }
 
 @media (max-width: 575px) {
+  .scroll_button {
+    right: 15px;
+  }
   .intro_block {
     min-height: auto;
   }
